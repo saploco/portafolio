@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2? family= Montserrat:wght@200;400;600 & display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
+#inicio {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/descargas/fondo-inicio.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+#inicio,
+.contenido,
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+}
+
+.contenido,
+.contenido-header {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #ff5080;
+}
+
+.contenido,
+.contenido-header,
+nav,
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+li,
+a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 12px;
+  font-weight: 400;
+  transition: 0.5s;
+}
+
+h2,
+p {
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+  color: #ff5080;
+}
+
+.redes,
+a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  margin-left: 10px;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: #ff5080;
+}
+
+.presentacion {
+  max-width: 1100;
+  height: 100vh;
+  margin: auto;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bienvenida {
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+h2 {
+  font-size: 55px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+span {
+  font-size: 25px;
+  color: #ff5080;
+}
+
+.descripcion {
+  max-width: 700px;
+  margin: 25px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.iraportafolio {
+  text-decoration: none;
+  display: inline-block;
+  margin: 25px;
+  padding: 20px 25px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.iraportafolio:hover {
+  background-color: #ff5080;
+  color: #fff;
+}
+
+#inicio-nav {
+  color: #fff;
+  display: none;
+}
